@@ -1,5 +1,29 @@
 /* Front In Salvador 2017 */
 
+@font-face {
+	font-family: 'Mono RGO Pro';
+	src: url('../fonts/MonoRGOPro-Bold.eot');
+	src: url('../fonts/MonoRGOPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MonoRGOPro-Bold.woff2') format('woff2'),
+		url('../fonts/MonoRGOPro-Bold.woff') format('woff'),
+		url('../fonts/MonoRGOPro-Bold.ttf') format('truetype'),
+		url('../fonts/MonoRGOPro-Bold.svg#MonoRGOPro-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Mono RGO Pro';
+	src: url('../fonts/MonoRGOPro-Regular.eot');
+	src: url('../fonts/MonoRGOPro-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MonoRGOPro-Regular.woff2') format('woff2'),
+		url('../fonts/MonoRGOPro-Regular.woff') format('woff'),
+		url('../fonts/MonoRGOPro-Regular.ttf') format('truetype'),
+		url('../fonts/MonoRGOPro-Regular.svg#MonoRGOPro-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 html,
 body {
     width: 100%;
@@ -8,7 +32,7 @@ body {
 
 body{
 	background-color: #000;
-  	font-family: sans-serif;
+	font-family: 'Mono RGO Pro';
 	font-size: 14px;
 	line-height: normal;
 	color: #fff;
@@ -27,6 +51,65 @@ h5,
 h6,
 .h6 {
   font-family: sans-serif;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    color: #fff;
+	display: table;
+}
+
+.hero{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.hero-content{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 330px;
+	position: relative;
+}
+
+.hero .coming{
+	border: 3px solid #4dc9a4;
+	color: #4dc9a4;
+	font-size: 30px;
+	display: inline-block;
+	padding: 2px 6px;
+	-ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -73px;
+    top: 30px;
+
+}
+
+.hero .title{
+	font-size: 60px;
+	line-height: 54px;
+	font-weight: bold;
+	border: 3px solid #4dc9a4;
+	display: block;
+	padding: 8px 10px;
+}
+.hero .tag{
+	color: #000;
+	background-color: #4dc9a4;
+	display: inline-block;
+	font-size: 30px;
+	padding: 0 15px;
+	margin-top: -3px;
+	font-weight: bold;
+}
+.hero .tag:before{
+	content: "<";
+}
+.hero .tag:after{
+	content: ">";
 }
 
 /* Responsive */
