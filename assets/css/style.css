@@ -97,6 +97,55 @@ h6,
 	animation: blink 1s infinite;
 }
 
+.msg-points{
+	position: absolute;
+	left: 3%;
+	bottom: 40px;
+}
+
+.hero-points{
+	position: absolute;
+	right: 0;
+	top: -30px;
+}
+
+.point{
+	width: 8px;
+	height: 8px;
+	display: block;
+}
+
+.red{
+	background-color: #e44524;
+}
+.green{
+	background-color: #05b192;
+}
+.blue{
+	background-color: #008acc;
+}
+
+.three-points{
+	background-color: #e44524;
+	width: 8px;
+	height: 8px;
+	display: block;
+}
+.three-points:before{
+	content: "";
+	background-color: #05b192;
+	margin-left: 8px;
+	width: 8px;
+	height: 8px;
+	display: block;
+}
+.three-points:after{
+	content: "";
+	background-color: #008acc;
+	width: 8px;
+	height: 8px;
+	display: block;
+}
 
 @keyframes type{ 
   from { width: 0; } 
@@ -110,6 +159,71 @@ h6,
 
 @keyframes blink{
   to{opacity: .0;}
+}
+
+@keyframes blink2{
+  0%{opacity: 1;}
+  50%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@keyframes blink3{
+  0%{opacity: 0;}
+  50%{opacity: 1;}
+  100%{opacity: 0;}
+}
+
+.a1{
+	animation: blink2 2s infinite;
+}
+
+.a2{
+	opacity: 0;
+	animation: blink3 2s infinite;
+}
+
+.inline-points{
+	position: absolute;
+	left: -35px;
+    bottom: 36px;
+}
+
+.inline-points:after{
+	margin-top: -8px;
+	margin-left: 16px;
+}
+
+.float{
+	position: absolute;
+}
+
+.f1{
+	left: 8%;
+	top: 18%;
+}
+.f2{
+	left: 22%;
+	top: 30%;
+}
+
+.f3{
+	right: 18%;
+	top: 20%;
+}
+
+.f4{
+	left: 15%;
+    bottom: 29%;
+}
+
+.f5{
+	left: 52%;
+    bottom: 16%;
+}
+
+.f6{
+    right: 24%;
+    bottom: 28%;
 }
 
 .logo{
