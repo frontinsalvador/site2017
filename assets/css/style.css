@@ -31,11 +31,17 @@ body {
 }
 
 body{
-	background-color: #000;
+	background:#000 url(../img/bg.svg) 0 0 repeat;
 	font-family: 'Mono RGO Pro';
 	font-size: 14px;
 	line-height: normal;
 	color: #fff;
+	animation: animatedBackground 100s linear infinite;
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 1920px 0; }
 }
 
 h1,
@@ -63,7 +69,57 @@ h6,
 .header-content{
 	display: table;
 	width: 100%;
-	height: 100%;
+	height: 95%;
+	position: relative;
+}
+
+.msg{
+	color: #000;
+	background-color: #ccc;
+	display: block;
+	position: absolute;
+	left: 3%;
+	width: 13.4em;
+	bottom: 70px;
+	font-size: 18px;
+	white-space: nowrap;
+	overflow: hidden;
+	animation: type 1s steps(20, end); 
+}
+
+.msg2{
+	width: 14.4em;
+	bottom: 48px;
+	animation: type2 2s steps(20, end);
+}
+
+.msg2 span{
+	animation: blink 1s infinite;
+}
+
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+.logo{
+	display: block;
+	position: absolute;
+	right: 3%;
+	bottom: 3%;
+	width: 100%;
+	max-width: 200px;
+	height: 70px;
 }
 
 .header .window{
@@ -82,6 +138,7 @@ h6,
 	border: 4px solid #3b3c38;
 	width: 95%;
 	height: 95%;
+	background-color: #000;
 }
 
 .window-bar{
