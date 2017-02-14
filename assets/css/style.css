@@ -148,29 +148,29 @@ h6,
 }
 
 @keyframes type{ 
-  from { width: 0; } 
+	from { width: 0; } 
 } 
 
 @keyframes type2{
-  0%{width: 0;}
-  50%{width: 0;}
-  100%{ width: 100; } 
+	0%{width: 0;}
+	50%{width: 0;}
+	100%{ width: 100; } 
 } 
 
 @keyframes blink{
-  to{opacity: .0;}
+	to{opacity: .0;}
 }
 
 @keyframes blink2{
-  0%{opacity: 1;}
-  50%{opacity: 0;}
-  100%{opacity: 1;}
+	0%{opacity: 1;}
+	50%{opacity: 0;}
+	100%{opacity: 1;}
 }
 
 @keyframes blink3{
-  0%{opacity: 0;}
-  50%{opacity: 1;}
-  100%{opacity: 0;}
+	0%{opacity: 0;}
+	50%{opacity: 1;}
+	100%{opacity: 0;}
 }
 
 .a1{
@@ -185,7 +185,7 @@ h6,
 .inline-points{
 	position: absolute;
 	left: -35px;
-    bottom: 36px;
+	bottom: 36px;
 }
 
 .inline-points:after{
@@ -213,17 +213,17 @@ h6,
 
 .f4{
 	left: 15%;
-    bottom: 29%;
+	bottom: 29%;
 }
 
 .f5{
 	left: 52%;
-    bottom: 16%;
+	bottom: 16%;
 }
 
 .f6{
-    right: 24%;
-    bottom: 28%;
+	right: 24%;
+	bottom: 28%;
 }
 
 .logo{
@@ -315,6 +315,7 @@ h6,
 
 .hero .coming{
 	border: 3px solid #4dc9a4;
+	background-color: #000;
 	color: #4dc9a4;
 	font-size: 30px;
 	display: inline-block;
@@ -332,6 +333,7 @@ h6,
 	font-size: 60px;
 	line-height: 54px;
 	font-weight: bold;
+	background-color: #000;
 	border: 3px solid #4dc9a4;
 	display: block;
 	padding: 8px 10px;
@@ -373,15 +375,73 @@ h6,
 		left: 0;
 		top: 0;
 	}
+	.inline-points {
+		left: 0px;
+		bottom: -18px;
+	}
+	.msg{
+		bottom: 23%;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	}
+	.msg2{
+		bottom: 19.8%;
+	}
+	.logo{
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	}
 }
 
 @media (max-width: 475px){
+	.hero{
+		display: block;
+	}
 	.hero-content {
-		margin: -43px auto 0;
+		margin: 40px auto 0;
+	}
+	.msg{
+		margin-top: 20px;
+		position: relative;
+	}
+	.msg2{
+		margin-top: 0;
+	}
+	.logo{
+		position: relative;
+		margin-top: 20px;
+	}
+	.inline-points {
+		left: 160px;
+		bottom: 0px;
 	}
 	.hero .title {
 		font-size: 48px;
 		line-height: 45px;
+	}
+	.hero-points{
+		display: none;
+	}
+	.f1 {
+		left: 57%;
+		top: 13%;
+	}
+	.f2 {
+		left: 11%;
+		top: 4%;
+	}
+	.f3 {
+		right: 8%;
+		top: 7%;
+	}
+	.f5 {
+		left: 92%;
+		bottom: 26%;
+	}
+	.f6 {
+		bottom: 8%;
 	}
 	.hero-content{
 		max-width: 265px;
