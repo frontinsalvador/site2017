@@ -393,6 +393,14 @@ h6,
 	box-shadow: 0 2px 0 #942e19;
   transform: translateY(3px);
 }
+.register-page {
+	text-decoration: none;
+	color: #FFF;
+}
+.register-page:hover {
+	text-decoration: none;
+	color: #FFF;
+}
 
 /* Responsive */
 
