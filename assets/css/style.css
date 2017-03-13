@@ -354,7 +354,7 @@ h6,
 	content: ">";
 }
 
-.call4 {
+.btn-involved {
 	margin-top: 48px;
 }
 .btn-call4 {
@@ -369,9 +369,28 @@ h6,
   outline: 0;
   padding: 12px 22px;
   transition: all .1s linear;
+	margin-right: 10px;
 }
 .btn-call4:active {
 	box-shadow: 0 2px 0 #1565c0;
+  transform: translateY(3px);
+}
+
+.btn-register {
+	border: 0;
+  background: #e44524;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #942e19;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0;
+  outline: 0;
+  padding: 12px 22px;
+  transition: all .1s linear;
+}
+.btn-register:active {
+	box-shadow: 0 2px 0 #942e19;
   transform: translateY(3px);
 }
 
