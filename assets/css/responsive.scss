@@ -54,7 +54,7 @@
 		font-size: 26px;
 	}
 	.speaker-text{
-		font-size: 16px;
+		font-size: 14px;
 	}
 	.header .window-bar-input{
 		display: none;
@@ -101,6 +101,7 @@
 	}
 	.hero-content {
 		margin: 40px auto 0;
+		max-width: 265px;
 	}
 	.msg{
 		margin-top: 20px;
@@ -143,11 +144,58 @@
 	.f6 {
 		bottom: 8%;
 	}
+}
+
+// iPhone 6
+@media (max-width: 375px){
 	.hero-content{
-		max-width: 265px;
+		margin-top: 80px;
+	}
+	.logo{
+		margin-top: 72px;
+	}
+	.btn{
+		padding: 12px;
+	}
+	.btn-register{
+		margin-right: 0;
+	}
+	.speaker-img{
+		height: 300px;
+	}
+	.speaker .soon:before{
+		line-height: 300px;
+	}
+	.speaker-text {
+		font-size: 12px;
 	}
 }
 
+// iPhone 5/4
+@media (max-width: 375px){
+	.hero-content{
+		margin-top: 30px;
+		max-width: 238px;
+	}
+	.btn{
+		margin-right: 5px;
+		font-size: 14px;
+		padding: 8px;
+	}
+	.btn-involved {
+		margin-top: 30px;
+	}
+	.comming, .tag{
+		font-size: 20px;
+	}
+	.hero .title {
+		font-size: 43px;
+		line-height: 39px;
+	}
+	.msg{
+		font-size: 14px;
+	}
+}
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 667px) {
