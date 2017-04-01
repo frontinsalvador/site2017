@@ -627,7 +627,9 @@ p{
 .speaker{
 	text-transform: uppercase;
 	max-width: 360px;
+	cursor: pointer;
 	margin: 20px auto;
+	display: block;
 	&:hover{
 		.speaker-content{
 			-webkit-transform: translateY(0);
@@ -693,17 +695,18 @@ p{
 		bottom: 10px;
 		display: inline-block;
 		vertical-align: middle;
-		-webkit-transform: translateY(27px);
-		-moz-transform: translateY(27px);
-		-ms-transform: translateY(27px);
-		-o-transform: translateY(27px);
-		transform: translateY(27px);
+		-webkit-transform: translateY(42px);
+		-moz-transform: translateY(42px);
+		-ms-transform: translateY(42px);
+		-o-transform: translateY(42px);
+		transform: translateY(42px);
 		-webkit-transition: -webkit-transform 0.3s ease-in-out;
 		-moz-transition: -moz-transform 0.3s ease-in-out;
 		transition: transform 0.3s ease-in-out;
 	}
 	&-text{
 		color: #fff;
+		height: 30px;
 		margin: 0;
 		line-height: normal;
 		font-size: 14px;
@@ -713,6 +716,7 @@ p{
 		background-color: #fff;
 		color: #000;
 		display: inline-block;
+		margin-top: 0;
 		font-size: 24px;
 		&:after{
 			content: "_";

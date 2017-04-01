@@ -112,7 +112,7 @@
 	}
 	.logo{
 		position: relative;
-		margin-top: 120px;
+		margin-top: 80px;
 	}
 	.inline-points {
 		left: 160px;
@@ -146,6 +146,12 @@
 	}
 }
 
+// iPhone 6P
+@media (max-width: 414px){
+	.logo{
+		margin-top: 80px;
+	}
+}
 // iPhone 6
 @media (max-width: 375px){
 	.hero-content{
@@ -172,7 +178,7 @@
 }
 
 // iPhone 5/4
-@media (max-width: 375px){
+@media (max-width: 320px){
 	.hero-content{
 		margin-top: 30px;
 		max-width: 238px;
@@ -195,9 +201,4 @@
 	.msg{
 		font-size: 14px;
 	}
-}
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 667px) {
-
 }

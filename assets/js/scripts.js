@@ -35,4 +35,3 @@ function init() {
         title: 'Faculdade DeVry | Ruy Barbosa - Campus Rio Vermelho'
     });
 }
-
