@@ -432,19 +432,10 @@ p{
 .btn-involved {
 	margin-top: 48px;
 }
-.btn-call4 {
-	background: #2196f3;
-	box-shadow: 0 5px 0 #1565c0;
-	&:hover{
-		background-color: #068bf5;
-	}
-	&:active {
-		box-shadow: 0 2px 0 #1565c0;
-		transform: translateY(3px);
-	}
-}
 
 .btn-register {
+	padding: 12px 54px;
+	font-size: 20px;
 	background: $orange;
 	box-shadow: 0 5px 0 #942e19;
 	&:hover{
