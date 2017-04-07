@@ -738,10 +738,17 @@ p{
 	text-align: center;
 	a{
 		color: #000;
-		background-color: #fff;
 		padding: 10px;
 		display: inline-block;
 	}
+	.sponsor-info{
+		background-color: #fff;
+	}
+}
+
+.jus{
+	max-width: 300px;
+	width: 100%;
 }
 
 .sponsor-content{
