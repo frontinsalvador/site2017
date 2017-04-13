@@ -27,22 +27,25 @@
 		font-size: 8px;
 	}
 	.speaker-content{
-		-webkit-transform: translateY(18px);
-		-moz-transform: translateY(18px);
-		-ms-transform: translateY(18px);
-		-o-transform: translateY(18px);
-		transform: translateY(18px);
+		-webkit-transform: translateY(28px);
+		-moz-transform: translateY(28px);
+		-ms-transform: translateY(28px);
+		-o-transform: translateY(28px);
+		transform: translateY(28px);
+	}
+	.speaker-text{
+		height: 15px;
 	}
 
 }
 
 @media (max-width: 767px){
 	.speaker-content{
-		-webkit-transform: translateY(27px);
-		-moz-transform: translateY(27px);
-		-ms-transform: translateY(27px);
-		-o-transform: translateY(27px);
-		transform: translateY(27px);
+		-webkit-transform: translateY(35px);
+		-moz-transform: translateY(35px);
+		-ms-transform: translateY(35px);
+		-o-transform: translateY(35px);
+		transform: translateY(35px);
 	}
 	.speaker-img{
 		height: 360px;
@@ -55,6 +58,7 @@
 	}
 	.speaker-text{
 		font-size: 14px;
+		height: 25px;
 	}
 	.header .window-bar-input{
 		display: none;
