@@ -44,6 +44,7 @@
             width: 46%;
             float: left;
             border: 6px solid #3b3c38;
+            background-color: rgba(0,0,0,.4);
             border-radius: 12px;
             padding: 20px;
             position: relative;
@@ -101,7 +102,7 @@
 }
 
 .timeline-describe {
-    color: #6f6f6f;
+    color: #a9a9a9;
     line-height: 18px;
 }
 

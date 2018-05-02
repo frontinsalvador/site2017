@@ -1,2 +1,14 @@
+# PDF's presentation
 2017.pdf
 2017-EN.pdf
+
+# OS X
+.DS_Store
+__MACOSX
+
+# error logs
+error.log
+
+sftp-config.json
+.htpasswd
+.htaccess
